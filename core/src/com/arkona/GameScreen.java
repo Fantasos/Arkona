@@ -39,10 +39,7 @@ public class GameScreen extends Stage {
 
 		gl.begin();
 		{
-			Texture logoTexture = (Texture) ArkonaGame.assets.get("arkona_logo.png");
-			int logoX = -(Gdx.graphics.getWidth() / 2);
-			int logoY = Gdx.graphics.getHeight() / 2 - logoTexture.getHeight();
-			gl.draw(logoTexture, logoX, logoY);
+			
 		}
 		gl.end();
 	}
